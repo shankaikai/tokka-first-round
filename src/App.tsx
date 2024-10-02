@@ -1,7 +1,11 @@
-const BINANCE_API = "https://api3.binance.com/api/v3/depth?symbol=ETHUSDT";
+import BuySellTable from "./components/BuySellTable";
 
 function App() {
-  return <div className="font-bold text-3xl">Hello</div>;
+  return (
+    <div className="font-bold text-3xl">
+      <BuySellTable />
+    </div>
+  );
 }
 
 export default App;
